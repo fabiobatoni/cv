@@ -1,0 +1,25 @@
+ifdef::backend-html5[]
+:toc: left
+:toc-title!:
+:toclevels: 2
+:nofooter:
+endif::[]
+ifdef::backend-pdf,backend-dockbook5[]
+:toc: macro
+endif::[]
+:icons: font
+:iconfont-cdn: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+//ifdef::backend-docbook5[]
+//:icons: image
+//:iconsdir: ../images/icons
+//endif::[]
+:experimental:
+//:stylesdir: css
+//:linkcss:
+:idprefix:
+:idseparator: -
+:sectanchors:
+:sectlink:
+:attribute-missing: warn
+include::uris.adoc[]
+include::definitions.adoc[]

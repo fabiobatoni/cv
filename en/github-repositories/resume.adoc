@@ -1,0 +1,37 @@
+[[github-repositories]]
+= {icon-github}GitHub
+
+[[github-repositories-my]]
+Some of my repositories::
+  Things that I wrote:::
+    * [[cv]] {cv}: The source code of my Curriculum Vitae, written in AsciiDoc format.
+    * [[whoami]] {whoami}: My personal presentation, written in AsciiDoc format.
+    * [[java-fundamentals-examples]] {java-fundamentals-examples}: Java 8 samples. Very basic and didatic. Written in Brazilian Portuguese for my Brazilian customers.
+    * [[jboss-scripts]] {jboss-scripts}: A small bunch of Bash scripts intended to facilitate tasks with different versions of JBoss (including Wildfly, EAP, and older) installed through zips.
+    * [[jboss-domain-mode-scripts]] {jboss-domain-mode-scripts}: A framework (written in Bash) to install JBoss EAP (domain mode) on RHEL.
+    * [[poc-vraptor-jboss-cluster]] {poc-vraptor-jboss-cluster}: A simple VRaptor application ajusted to run on JBoss EAP 6.4.
+    * [[struts2-crud-example]] {struts2-crud-example}: A sample Struts2 CRUD application migrated to run on a JBoss EAP 7. Data persistence (on Oracle) is managed by Hibernate.
+    * [[sislegis-site]] {sislegis-site}: SISLEGIS documentation website, wrote with {AsciiDoc} and {Awestruct}.
+    * [[sislegis-app]] {sislegis-app}: SISLEGIS backend source code ({JavaEE}).
+    * [[sislegis-app-frontend]] {sislegis-app-frontend}: SISLEGIS frontend source code ({JavaScript}/ {AngularJS})
+    * [[sislegis-ambiente]] {sislegis-ambiente}: Scripts ({Bash}/ {JBossCLI}) used to create environments that executes SISLEGIS application.
+    * [[sislegis-ambiente-ubuntu]] {sislegis-ambiente-ubuntu}: Environment to run SISLEGIS on {Ubuntu}.
+    * [[sislegis-ambiente-fedora]] {sislegis-ambiente-fedora}: Environment to run SISLEGIS on {Fedora}.
+    * [[sislegis-ambiente-centos]] {sislegis-ambiente-centos}: Environment to run SISLEGIS on {CentOS}.
+    * [[sislegis-ambiente-producao]] {sislegis-ambiente-producao}: Environment to run SISLEGIS within a Wildfly cluster (2 instances, domain mode, {CentOS}).
+    * [[gerador-jboss-bpmsuite-keycloak]] {gerador-jboss-bpmsuite-keycloak}: A project that integrates {JBossBPMSuite} and {Keycloak}.
+    * [[wildfly-native-management-api-sample]] {wildfly-native-management-api-sample}: A PoC that shows how to use {Wildfly} 8.2 managament interface programaticaly.
+    * [[blockchain-demo]] {blockchain-demo}: Sources (in AsciiDoc format) for the publication "Blockchain: Uma Visualização Gráfica".
+    * [[tutorial-metalsmith]] {tutorial-metalsmith}: Sources (in AsciiDoc format) for the publication "Tutorial MetalSmith".
+    * [[praticando-git-livro]] {praticando-git-livro}: Sources (in AsciiDoc format) for the publication "Praticando Git".
+    * [[tutorial-keycloak]] {tutorial-keycloak}: Sources (in AsciiDoc format) for the publication "Tutorial Keycloak".
+    * [[javaee-tutorial-testes]] {javaee-tutorial-testes}: Sources (in AsciiDoc format) for the publication "Testes em aplicações Java EE com Arquillian".
+  Forked repositories (maybe with some code that I fixed or added):::
+    * [[docker-rhel-nexus]] {docker-rhel-nexus}: OpenShift Dockerfiles, templates and scripts to run Nexus Repository Manager.
+    * [[docker-oracle-xe]] {docker-oracle-xe}: Dockerfile of Oracle Database Express Edition 11g Release 2.
+[[github-repositories-contributions]]
+Some o f my contributions to projects from others::
+  https://github.com/forge/core[forge/core]:::
+    * https://github.com/forge/core/pull/537[Fix forge bash script #537]
+  https://github.com/anders94/blockchain-demo[anders94/blockchain-demo]:::
+    * https://github.com/anders94/blockchain-demo/pull/18[pt-br docs #18]

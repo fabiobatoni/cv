@@ -1,0 +1,17 @@
+/README.html
+/README.pdf
+/publish
+/.last-build
+/*/build
+!/helper-scripts/build
+/helper-scripts/*.ok
+/helper-scripts/*.log
+/helper-scripts/*.pid
+/*/css/asciidoctor.css
+/*/images
+/*/*.html
+/*/*.pdf
+/*/*.txt
+/*/*.docx
+!/private/**
+!/gh-pages/**

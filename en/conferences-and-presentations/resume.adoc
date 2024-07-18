@@ -1,0 +1,8 @@
+[[conferences-and-presentations]]
+= Conferences & Presentations
+
+I did {base-en}/#conferences-and-presentations[a lot of presential
+talks] about many technical topics in Brazil.
+Currently I'm redirecting my efforts to produce online content on my
+video channels (<<youtube,YouTube>>, <<odysee,Odysee>>, and
+<<instagram,Instagram>>).

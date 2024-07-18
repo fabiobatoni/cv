@@ -1,0 +1,8 @@
+[[contacts-and-links]]
+= {icon-user}Contatos e links
+
+{icon-envelope}Email: {MyEmail} +
+{icon-browser}Website: {uri-fabiobatoni} +
+{icon-linkedin}LinkedIn: {uri-fabiobatoni-linkedin} +
+{icon-github}GitHub: {uri-fabiobatoni-github} +
+{icon-map-marker}Endereço: {uri-fabiobatoni-location}[{MyLocation}]

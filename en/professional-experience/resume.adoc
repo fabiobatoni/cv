@@ -1,0 +1,8 @@
+[[professional-experience]]
+= {icon-suitcase}Experiência Profissional
+
+include::2022-10-cristalia/resume.adoc[]
+include::2021-08-cristalia/resume.adoc[]
+include::2021-03-freelancer/resume.adoc[]
+include::2019-08-cristalia/resume.adoc[]
+

@@ -1,0 +1,6 @@
+* *{CurrentFocus}:* {Ubuntu}, {LXD-LXC}, {Docker}, {Kubernetes},
+  {CloudPlatforms}, {DevOps}, {Blockchain}, {SmartContracts},
+{Ethereum}, {Polygon}, {NEAR}, {Bash}, {Solidity}, {Rust}, {NodeJS},
+{npm}, pnpm, {TypeScript}, Nunjucks, {React}, {ReactNative}, {NextJS},
+{Svelte}, {SvelteKit}, {AsciiDoc}, {Asciidoctor_}, {Termux}, {Git},
+{GitHub}, {Scrum};

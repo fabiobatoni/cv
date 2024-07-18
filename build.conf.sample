@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+#LANGUAGES="en pt-br"
+LANGUAGES="en"
+FORMATS="html txt pdf docx"
+VERSIONS="full resume web3 devops"
+
+LANGUAGE_DIR=${LANGUAGE_DIR:-en}
+PUBLISH_DIR=${PUBLISH_DIR:-publish}
+
+PUBLIC_REPO=git@github.com:fabiobatoni/cv.git
+
+ENVIRONMENT=${ENVIRONMENT:-production}
+BASE_URL=https://fabiobatoni.dev.br/cv
+case "$ENVIRONMENT" in
+  development)
+    PORT=${PORT:-1234}
+    BASE_URL=http://localhost:$PORT
+    ;;
+esac
+
+GENERATE_TXT=${GENERATE_TXT:-true}
+GENERATE_PDF=${GENERATE_PDF:-true}
+GENERATE_DOCX=${GENERATE_DOCX:-true}

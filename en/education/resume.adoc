@@ -1,0 +1,12 @@
+[[education]]
+= {icon-graduation-cap}Educação
+
+:leveloffset: +1
+
+include::academic-background.adoc[]
+
+include::language-skills.adoc[]
+
+include::complementary-courses/resume.adoc[]
+
+:leveloffset: -1

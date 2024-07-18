@@ -1,0 +1,7 @@
+[[technical-writing]]
+= {icon-book}Technical Writing
+
+I like to write tutorials and articles about things that I'm studying or
+doing.
+So, I have many tutorials written and available in my GitHub account.
+{base-en}/#technical-writing[{read-more}]

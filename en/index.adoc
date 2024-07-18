@@ -1,0 +1,37 @@
+= Fabio Robledo Batoni de Godoy
+include::../index-header.adoc[]
+
+****
+Ultima atualização: *{localdatetime}* +
+Versão online: *{base-en}/* +
+Download em outros formatos: *{uri-my-cv-pdf}[PDF], {uri-my-cv-docx}[DOCX],
+{uri-my-cv-txt}[TXT]*
+****
+
+:leveloffset: +1
+
+include::contacts-and-links/index.adoc[]
+
+<<<
+ifdef::backend-pdf,backend-docbook5[]
+toc::[]
+endif::[]
+
+<<<
+include::personal-details/{version}.adoc[]
+
+<<<
+include::technical-skills/index.adoc[]
+
+<<<
+include::professional-experience/index.adoc[]
+
+<<<
+include::education/index.adoc[]
+
+<<<
+include::github-repositories/index.adoc[]
+
+:leveloffset: -1
+
+include::footer.adoc[]

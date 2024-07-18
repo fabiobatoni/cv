@@ -1,0 +1,10 @@
+include::index-header.adoc[]
+:toc!:
+:resume-pdf: resume.pdf
+:resume-txt: resume.txt
+:resume-docx: resume.docx
+ifeval::["{version}" != "full"]
+:resume-pdf: resume-{version}.pdf
+:resume-txt: resume-{version}.txt
+:resume-docx: resume-{version}.docx
+endif::[]

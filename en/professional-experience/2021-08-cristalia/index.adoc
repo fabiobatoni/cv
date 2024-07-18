@@ -1,0 +1,9 @@
+[[cristalia]]
+= Analista de Sistemas Junior no Laboratório Cristália
+
+`{icon-calendar}Setembro 2021 - Outubro 2022`
+
+Responsável pela equipe de suporte no ERP TOTVS - Datasul, com foco nos módulos de produção, compras, recebimento e estoque.
+
+- Utilização da linguagem Progress 4GL para a correção de problemas e otimização do ERP, contribuindo para a estabilidade e desempenho do sistema.
+- Colaboração na melhoria de um sistema integrado com o ERP, desenvolvido em PHP CodeIgniter, para aprimorar a movimentação de estoque.

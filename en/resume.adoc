@@ -1,0 +1,42 @@
+= Fabio Robledo Batoni de Godoy
+include::../resume-header.adoc[]
+
+ifdef::backend-html5[]
+[NOTE]
+====
+Gerar versões em: {base-en}/{resume-pdf}[PDF],
+{base-en}/{resume-txt}[TXT], {base-en}/{resume-docx}[DOCX].
+====
+endif::[]
+ifdef::backend-pdf,backend-docbook5[]
+:nofooter:
+[.text-center]
+*Online at {base-en}/{resume-pdf}[]*. +
+endif::[]
+Last update: {localdatetime}. +
+
+:leveloffset: +1
+
+include::personal-details/{version}.adoc[]
+
+//!full-begin
+ifeval::["{version}" != "full"]
+:nofooter!:
+
+<<<
+include::contacts-and-links/index.adoc[]
+
+include::technical-skills/index.adoc[]
+
+<<<
+include::professional-experience/resume.adoc[]
+
+<<<
+include::education/resume.adoc[]
+
+//!full-end
+endif::[]
+
+:leveloffset: -1
+
+include::footer.adoc[]

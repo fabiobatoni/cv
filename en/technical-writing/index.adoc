@@ -1,0 +1,51 @@
+[[technical-writing]]
+= {icon-book}Technical Writing
+
+So far I have been directing my publications to the public that reads in
+Portuguese.
+Therefore, most of my publications are in that language.
+Below are some of my technical writing.
+
+[[publications]]
+== Publications
+
+* {icon-calendar}August 2017: *"Scripts for automating tasks on JBoss
+  EAP domain mode"*.
+This title was translated from the original title for the documentation
+that I wrote for project <<jboss-domain-mode-scripts>>:
+{published-jboss-domain-mode-scripts}/docs/pt-br/["Scripts para a
+automação de tarefas no JBoss EAP (em modo domain)"].
+__({published-jboss-domain-mode-scripts}/docs/pt-br/jboss-domain-mode-scripts.pdf[PDF
+version] with 62 pages)__.
+* {icon-calendar}July 2017: *"Blockchain: A Graphical View"*.
+This title was translated from the original that I wrote in Brazilian
+Portuguese: {published-blockchain-demo}/["Blockchain: Uma Visualização
+Gráfica"].
+__({published-blockchain-demo}/blockchain-demo.pdf[PDF version] with 12
+pages)__.
+Source code: <<blockchain-demo>>.
+* {icon-calendar}July 2016: *"Metalsmith Tutorial"*.
+This title was translated from the original that I wrote in Brazilian
+Portuguese: {published-tutorial-metalsmith}["Tutorial de Metalsmith"].
+__({published-tutorial-metalsmith}/index.pdf[PDF version] with 19
+pages)__.
+Source code: <<tutorial-metalsmith>>.
+* {icon-calendar}March 2016: *"Practicing Git"*.
+This title was translated from the original that I wrote in Brazilian
+Portuguese: *"Praticando Git"*.
+__({published-praticando-git-livro}[PDF version] with 34 pages)__.
+Source code: <<praticando-git-livro>>.
+* {icon-calendar}September 2015: *"Keycloak Tutorial"*.
+This title was translated from the original that I wrote in Brazilian
+Portuguese: {published-tutorial-keycloak}["Tutorial de Keycloak"].
+__({published-tutorial-keycloak}/tutorial-keycloak.pdf[PDF version] with
+13 pages)__.
+Source code: <<tutorial-keycloak>>.
+* {icon-calendar}March 2015: *"Java EE application tests with
+  Arquillian"*.
+This title was translated from the original that I wrote in Brazilian
+Portuguese: {published-javaee-tutorial-testes}["Testes em aplicações
+Java EE com Arquillian"].
+__({published-javaee-tutorial-testes}/javaee-tutorial-testes.pdf[PDF
+version] with 41 pages)__.
+Source code: <<javaee-tutorial-testes>>.

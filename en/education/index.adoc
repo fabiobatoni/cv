@@ -1,0 +1,11 @@
+= {icon-graduation-cap}Formação
+
+:leveloffset: +1
+
+include::academic-background.adoc[]
+
+include::language-skills.adoc[]
+
+include::complementary-courses/index.adoc[]
+
+:leveloffset: -1

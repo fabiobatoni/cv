@@ -1,0 +1,9 @@
+[[cristalia]]
+= Técnico de sistemas no Laboratório Cristália
+
+`{icon-calendar}Agosto 2019 - Setembro 2021`
+
+Atendimento responsável e eficiente de chamados de incidentes, demonstrando agilidade na identificação e resolução de problemas nos sistemas satélites.
+
+- Utilização de PHP com o framework CodeIgniter, jquery e Bootstrap.
+- Garantia de SLA's dentro das metas propostas.

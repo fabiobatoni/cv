@@ -1,0 +1,13 @@
+= Certifications
+
+*Red Hat Certified System Administrator (RHCSA)*. Jul 18, 2014 - Nov 01,
+2018. __({uri-redhat-certification-verify}[See certificate])__ +
+*Red Hat Certified JBoss Administrator (RHCJA)*. Jul 17, 2014 - Nov 01,
+2018. __({uri-redhat-certification-verify}[See certificate])__ +
+*Sun Certified Business Component Developer for the Java 2 Platform 1.3,
+Enterprise Edition (SCBCD)*. Feb 2007. +
+*Sun Certified Programmer for the Java 2 Platform, Standartd Edition 5.0
+(SCJP)*. Feb 2007. +
+*Sun Certified Web Component Developer for the Java 2 Platform 1.3
+(SCWCD)*. Jun 2003 +
+*Sun Certified Programmer for the Java 2 Platform 1.2 (SCJP)*. May 2002.

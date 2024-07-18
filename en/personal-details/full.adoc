@@ -1,0 +1,25 @@
+[[personal-details]]
+= Resumo
+
+****
+Apaixonado por tecnologias como React, Node.js e suas respectivas bibliotecas, como Next.js
+e Nest.js. Especializado na criação de aplicações web modernas e escaláveis, utilizo
+metodologias ágeis para garantir entregas eficientes. Experiência sólida na construção de APIs
+Restful de alta qualidade, práticas de Clean Code.
+
+Atualmente atuo em empresas do mercado de trabalho em um dos seguintes cargos:
+
+. *{FullStackDeveloper}*.
+
+[CAUTION]
+====
+*_Acesse um dos links acima. Eles levarão você a versões especializadas do meu currículo demonstrando meu desempenho nessas posições._*
+====
+
+No momento, estou disponível para trabalhar meio período ou período integral.
+
+//ifdef::include-personal-details-caution[]
+
+//include::caution.adoc[]
+//endif::[]
+****

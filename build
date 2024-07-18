@@ -1,0 +1,296 @@
+#!/usr/bin/env bash
+set -eou pipefail
+
+BASE_DIR=`cd "$(dirname "$0")"; pwd`
+config=build.conf
+[ -f "$BASE_DIR"/$config ] || config=$config.sample
+source "$BASE_DIR"/$config
+
+####################
+# INTERNAL FUNCTIONS
+####################
+
+check-tools() {
+  local tools="$@"
+  local goahead=true
+  for tool in $tools
+  do
+    which $tool &> /dev/null || {
+      echo "ERROR: $tool wasn't found in PATH!"
+      goahead=false
+    }
+  done
+  $goahead
+}
+
+setup-links() {
+  for lang in $LANGUAGES
+  do
+    (
+      cd $lang
+      [ -L build ] || {
+        echo Creating $lang/build link ...
+        ln -s ../helper-scripts/build
+      }
+      [ -L images ] || {
+        echo Creating $lang/images link ...
+        ln -s ../images
+      }
+    )
+  done
+}
+
+check-prerequisites() {
+  local op=$1
+  check-tools git rsync zip serve asciidoctor || exit 1
+  $GENERATE_TXT || { check-tools w3m || exit 1; }
+  $GENERATE_PDF || { check-tools asciidoctor-pdf || exit 1; }
+  $GENERATE_DOCX || { check-tools pandoc || exit 1; }
+  ! [ "$op" != README ] || setup-links
+}
+
+format-gen() {
+  local format=$1
+  local version=$2
+  local input=$3
+  local output=$4
+  local asciidoctor=asciidoctor
+  local asciidoctor_args="\
+    -a lang=\$LANGUAGE_DIR \
+    -a version=\$version \
+    -a uri-base=\$BASE_URL"
+  ! [ "$format" = pdf ] || asciidoctor=asciidoctor-pdf
+  ! [ "$format" = docx ] || asciidoctor_args="$asciidoctor_args --backend docbook"
+  if [ "$LANGUAGE_DIR" = en -a "$input" = resume ] || [ "$LANGUAGE_DIR" = pt-br -a "$input" = index ] 
+  then
+    asciidoctor_args="$asciidoctor_args -a include-personal-details-caution"
+  fi
+  if [ "$format" != html ] && ! is-enabled "$format"
+  then
+    return
+  fi
+  case "$format" in
+    html|pdf)
+      echo Building \"$output.$format\" from \"$input.adoc\" ...
+      eval $asciidoctor $asciidoctor_args \
+        -o $output.$format $input.adoc
+      ;;
+    docx)
+      echo Building \"$output.$format\" from \"$input.adoc\" ...
+      eval $asciidoctor $asciidoctor_args \
+        -o - $input.adoc | \
+        pandoc --from docbook --to docx --output $output.$format
+      ;;
+    txt)
+      input=$input.html; output=$output.txt
+      echo Building \"$output\" from \"$input\" ...
+      w3m -dump -cols 2147483647 $input > $output
+  esac
+}
+
+is-enabled() {
+  local gen=GENERATE_${1^^}
+  if ! ${!gen}
+  then
+    #echo Generation of ${1^^} format is disabled!
+    return 1
+  fi
+}
+
+####################
+# CALLABLE FUNCTIONS
+####################
+
+_show-results() {
+  echo Generated files:
+  find . -type f \( \
+    -name '*.docx' -o \
+    -name '*.html' -o \
+    -name '*.pdf' -o \
+    -name '*.txt' \) \
+    "$@"
+}
+
+_clean() {
+  echo Removing all generated files ...
+  #_show-results -delete
+  git clean -fdX
+}
+
+_all() {
+  _README
+  for lang in $LANGUAGES
+  do
+    export LANGUAGE_DIR=$lang
+    cd "$BASE_DIR/$LANGUAGE_DIR"
+    [ "$LANGUAGE_DIR" = en ] || \
+      echo $'\nGenerating' documents for language $LANGUAGE_DIR ...
+    _all-formats
+  done
+}
+
+_all-formats() {
+  for format in $FORMATS
+  do
+    for version in $VERSIONS
+    do
+      if [ "$LANGUAGE_DIR" = en ]
+      then
+        if [ "$format" = html ]
+        then
+          case $version in
+            full) input=index; output=index ;;
+            resume) input=resume; output=resume ;;
+            *) input=resume; output=resume-$version
+          esac
+        else
+          case $version in
+            full) input=index; output=cv ;;
+            resume) input=resume; output=resume ;;
+            *) input=resume; output=resume-$version
+          esac
+        fi
+      elif [ "$LANGUAGE_DIR" = pt-br ]
+      then
+        ! [ "$version" = full ] || continue
+        input=index
+        if [ "$format" = html ]
+        then
+          case $version in
+            resume) output=index ;;
+            *) output=resume-$version
+          esac
+        else
+          case $version in
+            resume) output=resume ;;
+            *) output=resume-$version
+          esac
+        fi
+      else
+        echo Invalid LANGUAGE_DIR: \"$LANGUAGE_DIR\"
+      fi
+      ! [ "$version" = resume ] || version=full
+      format-gen $format $version $input $output || exit $?
+    done
+  done
+  echo $'\nAll' formats was successfully generated!
+}
+
+_serve() {
+  local op=${1:-start}
+  ./helper-scripts/serve.sh $op
+}
+
+_source-zip() {
+  local working_dir=${1:-$PUBLISH_DIR}
+  local project=$(basename "$BASE_DIR")
+  ! [[ $project =~ -private$ ]] || project=${project%-private}
+  echo BASE_DIR: $BASE_DIR
+  mkdir -p "$working_dir"
+  pushd "$working_dir" > /dev/null
+  echo WORK: $PWD
+  echo Current dir is WORK!
+  echo Creating the \"$project\" dir and sendind files from BASE_DIR/ to it ...
+  mkdir -p $project
+  rsync -am --exclude=private "$BASE_DIR"/ $project/
+  echo Generating the file source-code.zip ...
+  cd $project
+  echo Cleaning up the dirs that will be included in the zip ...
+  git clean -fdX &> /dev/null
+  echo Generating the .last-commit file ...
+  git rev-parse --short HEAD > .last-commit
+  ./build README
+  echo Deleting the .git dir because it will not be included in the zip ...
+  rm -rf .git
+  cd ..
+  echo Generating the zip file with the contents from the \"$project\" dir ...
+  zip -q -r source-code.zip $project
+  echo File source-code.zip generated successfuly!
+  echo Removing the \"$project\" directory ...
+  rm -rf $project
+  popd > /dev/null
+}
+
+_publish() {
+  local publish_dir=${1:-$PUBLISH_DIR}
+  rm -rf "${publish_dir}"
+  mkdir -p "$publish_dir"
+  echo Syncing all files from \"$PWD\" to \"$publish_dir\" ...
+  for lang in $LANGUAGES
+  do
+    rsync -am \
+      --include="$lang/" \
+      --exclude='private/*' \
+      --exclude='gh-pages/*' \
+      --include='README.*' \
+      --include='/*/*.html' \
+      --include='/*/*.txt' \
+      --include='/*/*.pdf' \
+      --include='/*/*.docx' \
+      --exclude='*' \
+      . "$publish_dir"/
+  done
+  _source-zip "$publish_dir"
+  tree -a "$publish_dir"
+  echo The files listed in the tree above are in the \"$publish_dir\" directory!
+}
+
+_publish-to-gh-pages() {
+  if [ "$(cat "$BASE_DIR/.last-build")" != production ]
+  then
+    echo "Unset the ENVIRONMENT variable, rebuild, and call this function again!"
+    exit 1
+  fi
+  local publish_dir=${1:-$PUBLISH_DIR}
+  _publish "$publish_dir"
+  cp LICENSE gh-pages/* "$publish_dir"/
+  local msg="Published at `date --rfc-3339=seconds`"
+  cd "$publish_dir"
+  git init
+  git add -A
+  git commit -m "$msg"
+  git push --force $PUBLIC_REPO main:gh-pages
+  cd "$OLDPWD"
+}
+
+_README() {
+  local asciidoctor_args="-a uri-base=\$BASE_URL"
+  echo 'Generating README.{html,pdf} files ...'
+  cd "$BASE_DIR"
+  for tool in asciidoctor asciidoctor-pdf
+  do
+    eval $tool $asciidoctor_args README.adoc
+  done
+  cd "$OLDPWD"
+}
+
+###########
+# MAIN CODE
+###########
+
+cd "$BASE_DIR"
+op=${1:-all}
+check-prerequisites "$op"
+type _$op &> /dev/null || {
+  echo "Invalid option: $op"
+  exit 1
+}
+case "$op" in
+  show-results | \
+  clean | \
+  serve | \
+  README | \
+  source-zip | \
+  publish* )
+    shift
+    _$op "${@:-}"
+    ;;
+  *)
+    cd "$LANGUAGE_DIR"
+    echo Environment: $ENVIRONMENT
+    echo Language: $LANGUAGE_DIR
+    _$op && echo
+    echo "$ENVIRONMENT" > "$BASE_DIR/.last-build"
+    ;;
+esac
+[ $? = 0 ] && echo Build finished successfuly! || exit $?

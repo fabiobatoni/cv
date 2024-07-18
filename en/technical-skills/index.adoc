@@ -1,0 +1,6 @@
+[[technical-skills]]
+= {icon-plug}Tecnologias
+
+React, Node JS, Typescript, APIs RestFull, PHP, Git / Github, Docker, Banco de dados e
+Metodologia agéis
+

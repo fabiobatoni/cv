@@ -1,0 +1,8 @@
+[[complementary-courses]]
+= Cursos complementares
+
+- Programa Explorer - 2023 RocketSeat Desenvolvimento front-end com React e back-end com NodeJS.
+- Linux Admin - 2022 LinuxTips Administração de ambientes Linux.
+
+- Adicionar os outros cursos.
+- Colocar link dos certificados.

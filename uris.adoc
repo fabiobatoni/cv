@@ -1,0 +1,78 @@
+// Fabio Batoni/Site
+:uri-fabiobatoni: https://fabiobatoni.dev.br
+// URI bases
+:base-en: {uri-base}/en
+:base-pt-br: {uri-base}/pt-br
+// This website
+:uri-source-code-zip: {uri-base}/source-code.zip
+// Resumes
+:resume-web3: resume-web3
+:resume-devops: resume-devops
+ifeval::["{lang}" == "en"]
+:resume-full: resume
+endif::[]
+ifeval::["{lang}" == "pt-br"]
+:resume-full: index
+ifdef::backend-pdf[]
+:resume-full: resume
+endif::[]
+endif::[]
+ifdef::backend-html5[]
+:uri-README: {uri-base}/README.html
+:uri-resume-full: {base-en}/{resume-full}.html
+:uri-resume-full-pt: {base-pt-br}/{resume-full}.html
+:uri-resume-web3: {base-en}/{resume-web3}.html
+:uri-resume-web3-pt: {base-pt-br}/{resume-web3}.html
+:uri-resume-devops: {base-en}/{resume-devops}.html
+:uri-resume-devops-pt: {base-pt-br}/{resume-devops}.html
+:uri-my-resume: {base-en}/resume.html
+:uri-my-cv: {base-en}/
+endif::[]
+ifdef::backend-pdf,backend-docbook5[]
+:uri-README: {uri-base}/README.pdf
+:uri-resume-full: {base-en}/{resume-full}.pdf
+:uri-resume-full-pt: {base-pt-br}/{resume-full}.pdf
+:uri-resume-web3: {base-en}/{resume-web3}.pdf
+:uri-resume-web3-pt: {base-pt-br}/{resume-web3}.pdf
+:uri-resume-devops: {base-en}/{resume-devops}.pdf
+:uri-resume-devops-pt: {base-pt-br}/{resume-devops}.pdf
+:uri-my-resume: {base-en}/resume.pdf
+:uri-my-cv: {base-en}/cv.pdf
+endif::[]
+:uri-my-cv-txt: {base-en}/cv.txt
+:uri-my-cv-pdf: {base-en}/cv.pdf
+:uri-my-cv-docx: {base-en}/cv.docx
+// Fabio Batoni / Location
+// Amparo - São Paulo
+:uri-fabiobatoni-location: https://maps.app.goo.gl/fbVXqdeuvCbwjuSS8
+// Fabio Batoni/Social
+:uri-fabiobatoni-github: https://github.com/fabiobatoni
+:uri-fabiobatoni-linkedin: https://www.linkedin.com/in/fabiobatoni/
+
+// Fabio Batoni/GitHub Repositories
+:uri-gh-ignite-shop: https://github.com/fabiobatoni/ignite-shop
+:uri-gh-pizza-shop: https://github.com/fabiobatoni/pizza-shop
+:uri-gh-blog: https://github.com/fabiobatoni/github-blog
+:uri-gh-coffe-delivery: https://github.com/fabiobatoni/Coffe-Delivery
+:uri-gh-dt-money: https://github.com/fabiobatoni/DT-money
+:uri-gh-food-backend: https://github.com/fabiobatoni/food-explorer-backend
+:uri-gh-food-frontend: https://github.com/fabiobatoni/food-explorer-frontend
+:uri-gh-rellowen: https://github.com/fabiobatoni/Rellowen-frontend
+:uri-gh-modelo-docker: https://github.com/fabiobatoni/modelo-docker
+:uri-gh-cobertura-imuna: https://github.com/fabiobatoni/Cobertura_imuna_Anos_Unidade-Federativas
+:uri-gh-escolaridade: https://github.com/fabiobatoni/escolaridade_x_producao_hospitalar
+:uri-gh-marketplace: https://github.com/fabiobatoni/MarketPlace
+
+// Fabio Batoni / Certificados
+:rocketseat: https://rocketseat.com
+
+
+// Companies
+:uri-cristalia: https://www.cristalia.com.br/
+
+
+// Universities
+:uri-unifia: https://portal.unisepe.com.br/unisepe/lp/?filial=0001
+
+
+// vim: tw=0 cc=0

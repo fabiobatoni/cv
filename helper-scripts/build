@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -eou pipefail
+
+cd "`dirname "$0"`"
+export LANGUAGE_DIR=`basename "$PWD"`
+case "$LANGUAGE_DIR" in
+  en|pt-br) :;;
+  *) echo This script should not be called in this dir!; exit 1;;
+esac
+../build "${@:-all-formats}"

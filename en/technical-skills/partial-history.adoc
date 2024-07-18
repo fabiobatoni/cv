@@ -1,0 +1,35 @@
+* *{PartialHistory}*:
+*{Virtualization}, {Containers}, {CloudPlatforms}, {DevOps}*: {Azure},
+{AWS} ({AWSIAM}, {AWSEC2}, {AWSLambda}, {AWSSQS}, {AWSKinesis},
+{AWSDynamoDB}, {AWSCloudShell}, CodePipeline, CodeBuild, CodeDeploy),
+{GCP}, {OpenStack}, {OpenShift}, {GitLab}, {BitBucket}, {Gradle},
+{Nexus}, {Jenkins}, {TravisCI}, {Ansible}, {VMware}, {VirtualBox},
+{KVM}, {Vagrant}, {Terraform};
+*{OperationalSystems}*: {macOS}, {Fedora}, {RHEL}, {CentOS},
+{ArchLinux};
+*{AgileMethodologies}*: {ExtremeProgramming}, {Kanban},
+{ContinuousIntegration}; {Jira};
+[[programming-languages]] *{ProgrammingLanguages}*: {Java}, {Groovy},
+{Kotlin}, {JavaScript}, {Python}, {Ruby}, {Solidity}, {C}, {CPP};
+*{Testing}, {CodeQuality}*: {TDD}, {BDD}, {IntegrationTesting},
+{AcceptanceTesting}, {JUnit}, {JMock}, {Mockito}, {Arquillian},
+{Cucumber}, {Selenium}, {Spek}, {Spock}, {Mocha}, {Chai}, {Jest},
+{SonarQube};
+*{Editors}, {IDEs}*: {Vim}, {IntelliJ}, {VisualStudioCode};
+*{JavaDevelopment}*: {JavaEE}, {Hibernate}, {Spring}, {SpringBoot},
+{JHipster}, {Quarkus};
+*{JavaScriptDevelopment}*: {yarn}, {Angular}, {Puppeteer};
+*{PythonDevelopment}*: {Django}, {Jinja}, {Chalice};
+*{APIDevelopment}*: {Swagger}, {Postman}, {GraphQL};
+*{WebDevelopment}*: {HTML}, {CSS}, {Sass}, {StyledComponents},
+{WebSocket};
+*{MobileDevelopment}*: {Kotlin};
+*{Databases}*: MySQL, MSQL, {Oracle}, {PostgreSQL}, {MongoDB};
+*{Documentation}*: {UML}, {Markdown};
+*{CommandLineTools}*: {Tmux}, {sed}, {awk}, {curl}, {httpie}, {jq};
+*{ConfigurationLanguages}*: {XML}, {JSON}, {YAML}, {TOML}, {Dhall};
+*{Middleware}, {BigData}*: {ApacheTomcat}, {JBossEAP}, {WildFly},
+{ApacheHTTP}, {Nginx}, {RabbitMQ}, {Kafka}, {ELKStack}, {ApacheNifi},
+{SpringCloudDataFlow};
+[[security]] *{Security}*: {OpenSSL}, {GnuPG}, {Passbolt},
+{SpringSecurity}, {OAuth}, {OIDC}, {Keycloak};

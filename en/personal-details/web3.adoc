@@ -1,0 +1,8 @@
+[[personal-details]]
+= {icon-bullseye}{resume-web3-title}
+
+Apaixonado por tecnologias como React, Node.js e suas respectivas bibliotecas, como Next.js
+e Nest.js. Especializado na criação de aplicações web modernas e escaláveis, utilizo
+metodologias ágeis para garantir entregas eficientes. Experiência sólida na construção de APIs
+Restful de alta qualidade, práticas de Clean Code.
+
