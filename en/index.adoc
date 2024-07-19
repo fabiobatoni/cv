@@ -3,9 +3,7 @@ include::../index-header.adoc[]
 
 ****
 Ultima atualização: *{localdatetime}* +
-Versão online: *{base-en}/* +
-Download em outros formatos: *{uri-my-cv-pdf}[PDF], {uri-my-cv-docx}[DOCX],
-{uri-my-cv-txt}[TXT]*
+Download em outros formatos: *{uri-my-cv-pdf}[PDF]*
 ****
 
 :leveloffset: +1
