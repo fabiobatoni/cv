@@ -3,7 +3,6 @@ include::../index-header.adoc[]
 
 ****
 Ultima atualização: *{localdatetime}* +
-Download em outros formatos: *{uri-my-cv-pdf}[PDF]* +
 Projeto README: *{uri-README}*
 ****
 
