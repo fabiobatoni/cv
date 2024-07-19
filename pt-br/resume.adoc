@@ -4,13 +4,13 @@ include::../resume-header.adoc[]
 ifdef::backend-html5[]
 [NOTE]
 ====
-Gerar versão em: {base-en}/{resume-pdf}[PDF].
+Gerar versão em: {base-pt-br}/{resume-pdf}[PDF].
 ====
 endif::[]
 ifdef::backend-pdf,backend-docbook5[]
 :nofooter:
 [.text-center]
-*Online at {base-en}/{resume-pdf}[]*. +
+*Online at {base-pt-br}/{resume-pdf}[]*. +
 endif::[]
 Last update: {localdatetime}. +
 

@@ -1,7 +1,7 @@
 // Fabio Batoni/Site
 :uri-fabiobatoni: https://fabiobatoni.dev.br
 // URI bases
-:base-en: {uri-base}/en
+:base-en: {uri-base}/pt-br
 :base-pt-br: {uri-base}/pt-br
 // This website
 :uri-source-code-zip: {uri-base}/source-code.zip

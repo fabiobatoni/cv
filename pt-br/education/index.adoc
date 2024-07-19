@@ -1,4 +1,4 @@
-= {icon-graduation-cap}Formação
+= {icon-graduation-cap}Educação
 
 :leveloffset: +1
 

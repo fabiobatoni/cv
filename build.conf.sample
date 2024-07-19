@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 #LANGUAGES="en pt-br"
-LANGUAGES="en"
+LANGUAGES="pt-br"
 FORMATS="html txt pdf docx"
 VERSIONS="full resume web3 devops"
 
-LANGUAGE_DIR=${LANGUAGE_DIR:-en}
+LANGUAGE_DIR=${LANGUAGE_DIR:-pt-br}
 PUBLISH_DIR=${PUBLISH_DIR:-publish}
 
 PUBLIC_REPO=git@github.com:fabiobatoni/cv.git

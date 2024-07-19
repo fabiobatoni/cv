@@ -1,1 +1,117 @@
-Escrever
+= Building my Curriculum Vitae (CV)
+Fabio Robledo Batoni de Godoy <fabio_batoni@hotmail.com>
+ifdef::backend-html5[]
+:nofooter:
+endif::[]
+:numbered:
+:idprefix:
+:idseparator: -
+:toc: left
+ifdef::backend-pdf[]
+:toc: macro
+endif::[]
+include::uris.adoc[]
+
+[.text-center]
+*Last Update: {localdatetime}* +
+ifdef::backend-pdf[]
+*Author: {author} ({email})* +
+*Online version: {uri-base}/README.html*
+
+toc::[]
+endif::[]
+ifdef::backend-html5[]
+*link:README.pdf[PDF Version]*
+endif::[]
+
+== Introduction
+
+This document explains how I build my résumé:
+
+[.text-center]
+{uri-my-resume} +
+{uri-my-cv} +
+
+Its source code is available here:
+
+[.text-center]
+{uri-source-code-zip}
+
+<<<
+== Prerequisites
+
+. Bash installed (version 5 or superior).
+. `asciidoctor` installed (for HTML generation).
+. `asciidoctor-pdf` installed (for PDF generation).
+. `w3m` installed (for TXT generation).
+. `pandoc` installed (for DOCX generation).
+. `serve` installed (via `npm install -g serve`).
+. Other required tools: `git`, `zip`, `rsync`, and `tree`.
+
+== Downloading and extracting the source code
+
+[subs=attributes+]
+----
+$ curl {uri-source-code-zip} -o fabiobatoni-cv.zip
+$ unzip fabiobatoni-cv.zip
+$ cd cv
+----
+
+== Developing it locally
+
+=== Building and viewing the generated files
+
+----
+$ ENVIRONMENT=development ./build
+$ ./build serve
+----
+
+Open http://localhost:1234/pt-br.
+
+=== Stoping the local web server
+
+----
+$ ./build serve stop
+----
+
+== Generating all the static formats (PDF)
+
+----
+$ ./build
+----
+
+Open `en/index.html`.
+
+== Building all the files for a specific language (pt-br as a sample)
+
+----
+$ ./en/build
+----
+
+== Listing the generated files
+
+----
+$ ./build show-results
+----
+
+== Generate all the files required to publish
+
+----
+$ ./build
+$ ./build publish
+----
+
+== Publish all the generated files to GitHub Pages
+
+----
+$ ./build
+$ ./build publish-to-gh-pages
+----
+
+== Deleting the generated files
+
+----
+$ ./build clean
+----
+
+
