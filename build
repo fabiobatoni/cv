@@ -61,7 +61,7 @@ format-gen() {
     -a uri-base=\$BASE_URL"
   ! [ "$format" = pdf ] || asciidoctor=asciidoctor-pdf
   ! [ "$format" = docx ] || asciidoctor_args="$asciidoctor_args --backend docbook"
-  if [ "$LANGUAGE_DIR" = en -a "$input" = resume ] || [ "$LANGUAGE_DIR" = pt-br -a "$input" = index ] 
+  if [ "$LANGUAGE_DIR" = en -a "$input" = resume ] || [ "$LANGUAGE_DIR" = pt-br -a "$input" = index ]
   then
     asciidoctor_args="$asciidoctor_args -a include-personal-details-caution"
   fi
@@ -236,7 +236,7 @@ _publish() {
 }
 
 _publish-to-gh-pages() {
-  if [ "$(cat "$BASE_DIR/.last-build")" != production ]
+  if [ "$(cat "$BASE_DIR/.last-build")" == production ]
   then
     echo "Unset the ENVIRONMENT variable, rebuild, and call this function again!"
     exit 1
