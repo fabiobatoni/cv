@@ -43,8 +43,6 @@ Its source code is available here:
 . Bash installed (version 5 or superior).
 . `asciidoctor` installed (for HTML generation).
 . `asciidoctor-pdf` installed (for PDF generation).
-. `w3m` installed (for TXT generation).
-. `pandoc` installed (for DOCX generation).
 . `serve` installed (via `npm install -g serve`).
 . Other required tools: `git`, `zip`, `rsync`, and `tree`.
 
