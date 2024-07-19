@@ -18,3 +18,4 @@
 :icon-university: icon:university[]{nbsp}
 :icon-user: icon:user[]{nbsp}
 :icon-youtube: icon:youtube[]{nbsp}
+:icon-certificate: icon:certificate[]{nbsp}

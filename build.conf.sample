@@ -11,7 +11,7 @@ PUBLISH_DIR=${PUBLISH_DIR:-publish}
 PUBLIC_REPO=git@github.com:fabiobatoni/cv.git
 
 ENVIRONMENT=${ENVIRONMENT:-production}
-BASE_URL=https://fabiobatoni.github.io/cv/
+BASE_URL=https://fabiobatoni.github.io/cv
 case "$ENVIRONMENT" in
   development)
     PORT=${PORT:-1234}

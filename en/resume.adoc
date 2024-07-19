@@ -4,8 +4,7 @@ include::../resume-header.adoc[]
 ifdef::backend-html5[]
 [NOTE]
 ====
-Gerar versões em: {base-en}/{resume-pdf}[PDF],
-{base-en}/{resume-txt}[TXT], {base-en}/{resume-docx}[DOCX].
+Gerar versão em: {base-en}/{resume-pdf}[PDF].
 ====
 endif::[]
 ifdef::backend-pdf,backend-docbook5[]

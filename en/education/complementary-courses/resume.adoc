@@ -1,8 +1,9 @@
 [[complementary-courses]]
 = Cursos complementares
 
-- Programa Explorer - 2023 RocketSeat Desenvolvimento front-end com React e back-end com NodeJS.
-- Linux Admin - 2022 LinuxTips Administração de ambientes Linux.
+{icon-certificate} ReactJS (Rocketseat). 15 Julho 2024. __({rocketseat-react}[Ver certificado])__ +
+{icon-certificate} Mentoria de Carreira (Rocketseat). 01 Julho 2024. __({rocketseat-carreira}[Ver certificado])__ +
+{icon-certificate} Figma (Rocketseat). 15 Maio 2024. __({rocketseat-figma}[Ver certificado])__ +
+{icon-certificate} Programa Explorer (Rocketseat). 05 Outubro 2023. __({rocketseat-explorer}[Ver certificado])__ +
+{icon-certificate} Linux Admin - 2022 LinuxTips Administração de ambientes Linux.
 
-- Adicionar os outros cursos.
-- Colocar link dos certificados.

@@ -18,3 +18,4 @@
 :icon-university: 🏫{nbsp}
 :icon-user: 🙂{nbsp}
 :icon-youtube: {empty}
+:icon-certificate: 📖 {nbsp}
