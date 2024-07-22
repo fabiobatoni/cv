@@ -1,7 +1,7 @@
 :icon-book: icon:book[]{nbsp}
 :icon-bullseye: icon:bullseye[]{nbsp}
 :icon-briefcase: icon:briefcase[]{nbsp}
-:icon-browser: {empty}
+:icon-laptop: icon:laptop[]{nbsp}
 :icon-calendar: icon:calendar[]{nbsp}
 :icon-envelope: icon:envelope[]{nbsp}
 :icon-file: icon:file[]{nbsp}

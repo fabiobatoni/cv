@@ -1,8 +1,8 @@
 [[complementary-courses]]
 = Cursos complementares
 
-{icon-certificate} ReactJS (Rocketseat). 15 Julho 2024. __({rocketseat-react}[Ver certificado])__ +
-{icon-certificate} Mentoria de Carreira (Rocketseat). 01 Julho 2024. __({rocketseat-carreira}[Ver certificado])__ +
-{icon-certificate} Figma (Rocketseat). 15 Maio 2024. __({rocketseat-figma}[Ver certificado])__ +
-{icon-certificate} Programa Explorer (Rocketseat). 05 Outubro 2023. __({rocketseat-explorer}[Ver certificado])__ +
-{icon-certificate} Linux Admin - 2022 LinuxTips Administração de ambientes Linux.
+* `{icon-calendar} *2024*` ReactJS (Rocketseat) __({rocketseat-react}[Ver certificado])__ +
+* `{icon-calendar} *2024*` Mentoria de Carreira (Rocketseat) __({rocketseat-carreira}[Ver certificado])__ +
+* `{icon-calendar} *2024*` Figma (Rocketseat) __({rocketseat-figma}[Ver certificado])__ +
+* `{icon-calendar} *2023*` Programa Explorer (Rocketseat) __({rocketseat-explorer}[Ver certificado])__ +
+* `{icon-calendar} *2022*` Linux Admin - LinuxTips Administração de ambientes Linux.

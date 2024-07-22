@@ -13,7 +13,7 @@ endif::[]
 :MySite: {uri-fabiobatoni}[fabiobatoni.dev.br]
 :MyPhone: +55 61 99807 3864
 :MyEmail: fabio_batoni@hotmail.com
-:MyLocation: Amparo/São Paulo
+:MyLocation: Amparo-SP
 
 // Companies
 :cristalia: {uri-cristalia}[cristalia]

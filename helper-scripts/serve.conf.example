@@ -1,4 +1,4 @@
 # vim: syntax=bash
 
 dir=${dir:-.}
-PORT=${PORT:-1234}
+PORT=${PORT:-4000}

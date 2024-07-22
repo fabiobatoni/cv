@@ -8,7 +8,7 @@ ifdef::backend-pdf,backend-dockbook5[]
 :toc: macro
 endif::[]
 :icons: font
-:iconfont-cdn: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+//:iconfont-cdn: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 //ifdef::backend-docbook5[]
 //:icons: image
 //:iconsdir: ../images/icons

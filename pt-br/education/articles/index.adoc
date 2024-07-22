@@ -1,0 +1,6 @@
+[[articles]]
+= Blogs e Artigos
+
+* `{icon-calendar} *2024*` Fabio Batoni Dev __({fabiobatoni-dev}[Ver Blog])__ +
+* `{icon-calendar} *2018*` Inovação tecnológicas impactando na econômia __({article}[Ver Artigo])__ +
+* `{icon-calendar} *2017*` Engenharia Eletrocutada __({engenharia}[Ver Blog])__

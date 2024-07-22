@@ -1,8 +1,11 @@
+:stylesheet: custom.css
+:stylesdir: ./
+
 = Fabio Robledo Batoni de Godoy
 include::../index-header.adoc[]
 
 ****
-Ultima atualização: *{localdatetime}* +
+Última atualização: *{localdatetime}* +
 Projeto README: *{uri-README}*
 ****
 

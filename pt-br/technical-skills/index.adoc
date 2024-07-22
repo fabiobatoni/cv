@@ -1,6 +1,9 @@
 [[technical-skills]]
 = {icon-plug}Tecnologias
 
-React, Node JS, Typescript, APIs RestFull, PHP, Git / Github, Docker, Banco de dados e
-Metodologia agéis
+* Linguagens de programação e SO
+  - Proficiente em Javascript. Compentente em Java, e conhecimentos avançados em ReactJS e AngularJS;
+  - Conhecimentos intermediários em Ambientes linux.
+* Outras tecnologias
+  - Git, Docker, AWS, Asciidoctor, Markdown, PostgreSQL, Redux, Figma, RXjs, Jest, SpringBoot.
 

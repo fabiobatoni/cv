@@ -1,7 +1,7 @@
 :icon-book: 🕮{nbsp}
 :icon-bullseye: ◎{nbsp}
 :icon-briefcase: 💼{nbsp}
-:icon-browser: {empty}
+:icon-site: 🖥️ {nbsp}
 :icon-calendar: 🗓{nbsp}
 :icon-envelope: 📨{nbsp}
 :icon-file: 🗃{nbsp}

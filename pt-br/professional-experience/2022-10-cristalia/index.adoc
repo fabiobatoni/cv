@@ -1,14 +1,13 @@
 [[cristalia]]
-= Analista de Sistemas Pleno no Laboratório Cristália
+= Cristália indústria Farmacêutica
 
-`{icon-calendar}Outubro 2022 - Abril 2024`
+* `*Analista de sistemas Pleno* | {icon-calendar}Outubro 2022 - Abril 2024`
 
-Responsável pela administração abrangente do ambiente web, incluindo a configuração de serviços
-PHP utilizando o Apache, bem como o gerenciamento de serviços Node.js através do PM2.
-
+- Responsável pela administração abrangente do ambiente web, incluindo a configuração de serviços;
+- PHP utilizando o Apache, bem como o gerenciamento de serviços Node.js através do PM2;
 - Liderança de projeto para desenvolver um sistema de controle de contratos de licitações,
 empregando o framework NestJS para a construção da API, documentação com Swagger e o
-NextJS no frontend.
+NextJS no frontend;
 - Utilização de RPA (Robotic Process Automation) para automatizar tarefas, otimizando a eficiência
-operacional e economizando tempo valioso
+operacional e economizando tempo valioso.
 

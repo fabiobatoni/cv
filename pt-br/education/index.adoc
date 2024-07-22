@@ -4,8 +4,10 @@
 
 include::academic-background.adoc[]
 
-include::language-skills.adoc[]
+include::articles/index.adoc[]
 
 include::complementary-courses/index.adoc[]
+
+include::language-skills.adoc[]
 
 :leveloffset: -1

@@ -64,10 +64,15 @@ endif::[]
 :uri-gh-marketplace: https://github.com/fabiobatoni/MarketPlace
 
 // Fabio Batoni / Certificados
-:rocketseat-react: https://app.rocketseat.com.br/certificates/21fa2271-edfe-4ac8-a4c0-38ddce19887e
-:rocketseat-explorer: https://app.rocketseat.com.br/certificates/b4e9a462-ae0f-4a55-b9d2-ee2acd39eb61
-:rocketseat-figma: https://app.rocketseat.com.br/certificates/0d8e04bd-c74f-4aed-b5e7-0b68d4ac3f3d
-:rocketseat-carreira: https://app.rocketseat.com.br/certificates/b918c0fd-fc1f-46d2-90f3-3e0d1f6d2b56
+:rocketseat-react: https://github.com/fabiobatoni/portfolio-data/blob/main/certificates/react.pdf
+:rocketseat-explorer: https://github.com/fabiobatoni/portfolio-data/blob/main/certificates/explorer.pdf
+:rocketseat-figma: https://github.com/fabiobatoni/portfolio-data/blob/main/certificates/figma.pdf
+:rocketseat-carreira: https://github.com/fabiobatoni/portfolio-data/blob/main/certificates/mentory.pdf
+
+//Fabio Batoni / Articles and Blogs
+:fabiobatoni-dev: https://github-blog-inky.vercel.app/
+:engenharia: http://engenhariaeletrocutada.blogspot.com/
+:article: https://github.com/fabiobatoni/portfolio-data/blob/main/articles/ANAIS_2018-v4.pdf
 
 
 // Companies
