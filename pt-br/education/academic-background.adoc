@@ -2,5 +2,5 @@
 = Formação
 
 {Unifia}, 2018 -> 2020 +
-Analise e Desenvolvimento de Sistemas.
+Análise e Desenvolvimento de Sistemas.
 

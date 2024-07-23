@@ -3,15 +3,15 @@
 
 [[github-repositories-my]]
 Alguns dos meus repositórios::
-    * `{icon-calendar} *2024*` [[ignite-shop]] {ignite-shop}: Projeto completo com o framework Next.js. Utilizando StitchesJS, passando por conceitos de SPA, renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).
-    * `{icon-calendar} *2024*` [[pizza-shop]] {pizza-shop}: Este projeto tem como foco exercitar tanto os conceitos sobre React, quanto a comunicação com APIs via requisições HTTP. Apresentar também testes na aplicação frontend. Aplicativo de gerenciamento de pizzaria (painel de administração) usando Vite, React Router DOM, React Hook Form, shadcn/ui, React Query, Vitest!
-    * `{icon-calendar} *2024*` [[github-blog]] {github-blog}: Aplicação que utiliza a API do GitHub para buscar "issues" em um repositório, dados do seu perfil e exibi-los como um blog.
-    * `{icon-calendar} *2024*` [[coffe-delivery]]{coffe-delivery}: Aplicatição para gerenciamento de carrinho de compras de uma cafeteria fictícia, que contém diversas funcionalidades.
-    * `{icon-calendar} *2024*` [[dt-money]]{dt-money}: Aplicação de controle financeiro desenvolvida com consumo e desempenho de APIs em ReactJS.
-    * `{icon-calendar} *2023*` [[food-explorer]]{food-explorer}: Aplicação web de um restaurante utilizando React para aplicação Frontend da Aplicação.
-    * `{icon-calendar} *2023*` [[modelo-docker]]{modelo-docker}: Template docker - NodeJS.
-    * `{icon-calendar} *2021*` [[cobertura-imuna]]{cobertura-imuna}: Analise de dados do plano de imunização nacional para entender se todos os anos e estados possuem a mesma taxa de cobertura, tambem entender quais possuem as menores.
-    * `{icon-calendar} *2021*` [[escolaridade]]{escolaridade}: Este projeto tem o intuito de comparar os dados de produção hospitalar e dados de escolaridade dos estados.
+    * `{icon-calendar} *2024*` [[ignite-shop]] {ignite-shop}: Projeto completo com o framework Next.js, utilizando StitchesJS e abrangendo conceitos de SPA, renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).
+    * `{icon-calendar} *2024*` [[pizza-shop]] {pizza-shop}: Este projeto tem como foco exercitar conceitos sobre React e a comunicação com APIs via requisições HTTP. Inclui também testes na aplicação frontend. É um aplicativo de gerenciamento de pizzaria (painel de administração) usando Vite, React Router DOM, React Hook Form, shadcn/ui, React Query e Vitest.
+    * `{icon-calendar} *2024*` [[github-blog]] {github-blog}: Aplicação que utiliza a API do GitHub para buscar "issues" em um repositório, dados do perfil e exibi-los como um blog.
+    * `{icon-calendar} *2024*` [[coffe-delivery]]{coffe-delivery}: Aplicativo para gerenciamento de carrinho de compras de uma cafeteria fictícia, que contém diversas funcionalidades.
+    * `{icon-calendar} *2024*` [[dt-money]]{dt-money}: Aplicação de controle financeiro desenvolvida com foco no consumo e desempenho de APIs em ReactJS.
+    * `{icon-calendar} *2023*` [[food-explorer]]{food-explorer}: Aplicação web de um restaurante utilizando React para a aplicação frontend.
+    * `{icon-calendar} *2023*` [[modelo-docker]]{modelo-docker}: Template Docker para NodeJS.
+    * `{icon-calendar} *2021*` [[cobertura-imuna]]{cobertura-imuna}: Análise de dados do plano de imunização nacional para entender se todos os anos e estados possuem a mesma taxa de cobertura, e identificar quais têm as menores taxas.
+    * `{icon-calendar} *2021*` [[escolaridade]]{escolaridade}: Projeto para comparar dados de produção hospitalar e dados de escolaridade dos estados.
 
 
 

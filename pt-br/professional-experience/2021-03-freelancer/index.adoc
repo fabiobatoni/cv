@@ -4,5 +4,5 @@
 * `*Desenvolvedor FullStack* | {icon-calendar}Março 2021 - Outubro 2021`
 
 - Desenvolvedor FullStack em um projeto de uma rede social de filmes, utilizando Django como framework principal;
-- Contribuição para o desenvolvimento de diversas telas relacionadas a séries e filmes, garantindo uma experiência de usuário atraente e responsiva, com Jquery, bootstrap e CSS;
-- Manutenção de código conforme necessário para aprimorar a funcionalidade e corrigir problemas
+- Contribuição para o desenvolvimento de diversas telas relacionadas a séries e filmes, garantindo uma experiência de usuário atraente e responsiva, com jQuery, Bootstrap e CSS;
+- Manutenção do código conforme necessário para aprimorar a funcionalidade e corrigir problemas.
