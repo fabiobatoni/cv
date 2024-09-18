@@ -2,11 +2,12 @@
 = Resumo
 
 ****
-Sou um desenvolvedor fullstack apaixonado por tecnologias modernas como React, Node.js e suas bibliotecas associadas, como Next.js e Nest.js. Atualmente, estou estudando Angular no front-end e utilizo JAVA e Spring Boot no back-end. Especializado na criação de aplicações web modernas e escaláveis, aplico metodologias ágeis para garantir entregas eficientes e de alta qualidade.
+Sou um desenvolvedor fullstack apaixonado por tecnologias modernas como React, Node.js e suas bibliotecas associadas, como Next.js e NestJS. Atualmente, estou focando no back-end com Node.js, utilizando Fastify e NestJS. Especializado na criação de aplicações web modernas e escaláveis, tenho experiência com soluções SaaS, desenvolvendo sistemas que atendem às necessidades de diversos usuários.
 
 Tenho experiência sólida na construção de APIs Restful e na aplicação de práticas de Clean Code, o que me permite desenvolver soluções robustas e eficientes. Minha habilidade em integrar diversas tecnologias front-end e back-end me capacita a criar experiências de usuário excepcionais e sistemas escaláveis.
 
-No momento, estou disponível para trabalhar meio período ou período integral.
+
+{FullStackDeveloper}
 
 //ifdef::include-personal-details-caution[]
 
