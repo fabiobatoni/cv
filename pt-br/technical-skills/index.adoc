@@ -2,8 +2,8 @@
 = {icon-plug}Tecnologias
 
 * Linguagens de programação e SO
-  - Proficiente em JavaScript. Competente em Java, com conhecimentos avançados em ReactJS e AngularJS;
+  - Proficiente em JavaScript. Competente em Python, com conhecimentos avançados em ReactJS e NextJS;
   - Conhecimentos intermediários em ambientes Linux.
 * Outras tecnologias
-  - Git, Docker, AWS, Asciidoctor, Markdown, PostgreSQL, Redux, Figma, RXjs, Jest, Spring Boot.
+  - Git, Docker, AWS, Asciidoctor, Markdown, PostgreSQL, Redux, NodeJS, Figma, RxJS, Jest.
 

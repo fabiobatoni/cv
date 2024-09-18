@@ -4,7 +4,8 @@
 * `*Analista de sistemas Pleno* | {icon-calendar}Outubro 2022 - Abril 2024`
 
 - Responsável pela administração abrangente do ambiente web, incluindo a configuração de serviços;
-- PHP utilizando o Apache, bem como o gerenciamento de serviços Node.js através do PM2;
-- Liderança de projeto para desenvolver um sistema de controle de contratos de licitações, empregando o framework NestJS para a construção da API, documentação com Swagger e NextJS no frontend;
-- Utilização de RPA (Robotic Process Automation) para automatizar tarefas, otimizando a eficiência operacional e economizando tempo valioso.
+- Gerenciamento de serviços PHP utilizando Apache e de serviços Node.js através do PM2;
+- Liderança de projeto para desenvolver um sistema de controle de contratos de licitações, empregando o framework NestJS para a construção da API, documentação com Swagger e Next.js no frontend;
+- Responsável por realizar correções e melhorias em um SaaS de gerenciamento de documentos da empresa.
+
 
