@@ -1,0 +1,149 @@
+Fabio Robledo Batoni de Godoy
+
+  •  Contatos e Links
+  • Resumo
+  •  Tecnologias
+  •  Experiência profissional
+      □ Cristália indústria Farmacêutica
+      □ Freelancer
+  •  Educação
+      □ Formação
+      □ Blogs e Artigos
+      □ Cursos complementares
+      □ Habilidades de linguagem
+  •  GitHub
+
+Última atualização: 2024-09-18 22:10:49 -0300
+Projeto README: https://fabiobatoni.github.io/cv/README.html
+
+  Contatos e Links
+
+ Email: fabio_batoni@hotmail.com
+ Website: https://fabiobatoni.dev.br
+ LinkedIn: https://www.linkedin.com/in/fabiobatoni/
+ GitHub: https://github.com/fabiobatoni
+ Endereço: Amparo-SP
+
+ Resumo
+
+Sou um desenvolvedor fullstack apaixonado por tecnologias modernas como React, Node.js e suas bibliotecas associadas, como Next.js e NestJS. Atualmente, estou focando no back-end com Node.js, utilizando Fastify e NestJS. Especializado na criação de aplicações web modernas e escaláveis, tenho experiência com soluções SaaS, desenvolvendo sistemas que atendem às necessidades de diversos usuários.
+
+Tenho experiência sólida na construção de APIs Restful e na aplicação de práticas de Clean Code, o que me permite desenvolver soluções robustas e eficientes. Minha habilidade em integrar diversas tecnologias front-end e back-end me capacita a criar experiências de usuário excepcionais e sistemas escaláveis.
+
+  Tecnologias
+
+  • Linguagens de programação e SO
+
+      □ Proficiente em JavaScript. Competente em Python, com conhecimentos avançados em ReactJS e NextJS;
+
+      □ Conhecimentos intermediários em ambientes Linux.
+
+  • Outras tecnologias
+
+      □ Git, Docker, AWS, Asciidoctor, Markdown, PostgreSQL, Redux, Zustand, ContextAPI, NodeJS, Figma, RxJS, Jest.
+
+  Experiência profissional
+
+ Cristália indústria Farmacêutica
+
+  • Analista de sistemas Pleno |  Outubro 2022 - Abril 2024
+
+      □ Criação de integração entre o ERP e um sistema de laudo de produtos, permitindo que clientes externos acessem informações detalhadas sobre os produtos;
+
+      □ Liderança de projeto para desenvolver um sistema de controle de contratos de licitações, empregando o framework NestJS para a construção da API, documentação com Swagger e Next.js no frontend;
+
+      □ Responsável pela administração abrangente do ambiente web, incluindo a configuração de serviços;
+
+      □ Gerenciamento de serviços PHP utilizando Apache e de serviços Node.js através do PM2;
+
+      □ Responsável por realizar correções e melhorias em um SaaS de gerenciamento de documentos da empresa.
+
+  • Analista de sistemas Junior |  Setembro 2021 - Outubro 2022
+
+      □ Responsável pela equipe de suporte no ERP TOTVS - Datasul, com foco nos módulos de produção, compras, recebimento e estoque;
+
+      □ Utilização da linguagem Progress 4GL para a correção de problemas e otimização do ERP, contribuindo para a estabilidade e desempenho do sistema;
+
+      □ Colaboração na melhoria de um sistema integrado com o ERP, desenvolvido em PHP CodeIgniter, para aprimorar a movimentação de estoque.
+
+  • Técnico de Sistemas |  Agosto 2019 - Setembro 2021
+
+      □ Desenvolvimento de serviços internos utilizando Node.js, focado em criar soluções eficientes e escaláveis para otimizar processos internos e melhorar a integração entre sistemas;
+
+      □ Atendimento responsável e eficiente de chamados de incidentes, demonstrando agilidade na identificação e resolução de problemas nos sistemas satélites;
+
+      □ Utilização de PHP com o framework CodeIgniter, jQuery e Bootstrap;
+
+      □ Garantia de SLA’s dentro das metas propostas.
+
+ Freelancer
+
+  • Desenvolvedor FullStack |  Março 2021 - Outubro 2021
+
+      □ Garantia da estabilidade do sistema por meio de upgrades regulares de versões de bibliotecas, além de melhorias no gerenciamento de containers Docker, otimizando a eficiência e a confiabilidade dos ambientes de desenvolvimento e produção;
+
+      □ Desenvolvedor FullStack em um projeto de uma rede social de filmes, utilizando Django como framework principal;
+
+      □ Contribuição para o desenvolvimento de diversas telas relacionadas a séries e filmes, garantindo uma experiência de usuário atraente e responsiva, com jQuery, Bootstrap e CSS;
+
+      □ Manutenção do código conforme necessário para aprimorar a funcionalidade e corrigir problemas.
+
+  Educação
+
+ Formação
+
+  Centro Universitario Amparense (Unifia), 2018 → 2020
+Análise e Desenvolvimento de Sistemas.
+
+ Blogs e Artigos
+
+  •   2024 Fabio Batoni Dev (Ver Blog)
+
+  •   2018 Inovação tecnológicas impactando na econômia (Ver Artigo)
+
+  •   2017 Engenharia Eletrocutada (Ver Blog)
+
+ Cursos complementares
+
+  •   2024 ReactJS (Rocketseat) (Ver certificado)
+
+  •   2024 Mentoria de Carreira (Rocketseat) (Ver certificado)
+
+  •   2024 Figma (Rocketseat) (Ver certificado)
+
+  •   2023 Programa Explorer (Rocketseat) (Ver certificado)
+
+  •   2022 Linux Admin - LinuxTips Administração de ambientes Linux.
+
+ Habilidades de linguagem
+
+Português: Lingua Nativa.
+Inglês: Avançado.
+
+  GitHub
+
+Alguns dos meus repositórios
+      □   2024 ignite-shop: Projeto completo com o framework Next.js, utilizando StitchesJS e abrangendo conceitos de SPA, renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).
+
+      □   2024 pizza-shop: Este projeto tem como foco exercitar conceitos sobre React e a comunicação com APIs via requisições HTTP. Inclui também testes na aplicação frontend. É um aplicativo de gerenciamento de pizzaria (painel de administração) usando Vite, React Router DOM, React Hook Form, shadcn/ui, React Query e Vitest.
+
+      □   2024 github-blog: Aplicação que utiliza a API do GitHub para buscar "issues" em um repositório, dados do perfil e exibi-los como um blog.
+
+      □   2024 coffe-delivery: Aplicativo para gerenciamento de carrinho de compras de uma cafeteria fictícia, que contém diversas funcionalidades.
+
+      □   2024 dt-money: Aplicação de controle financeiro desenvolvida com foco no consumo e desempenho de APIs em ReactJS.
+
+      □   2023 food-explorer: Aplicação web de um restaurante utilizando React para a aplicação frontend.
+
+      □   2023 modelo-docker: Template Docker para NodeJS.
+
+      □   2021 cobertura-imuna: Análise de dados do plano de imunização nacional para entender se todos os anos e estados possuem a mesma taxa de cobertura, e identificar quais têm as menores taxas.
+
+      □   2021 escolaridade: Projeto para comparar dados de produção hospitalar e dados de escolaridade dos estados.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Desenvolvido por Fabio Robledo Batoni de Godoy
+
+https://fabiobatoni.dev.br
+
